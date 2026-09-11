@@ -1,0 +1,12 @@
+{
+  "entity": "Harbor Table Restaurants",
+  "period": "2026-06",
+  "currency": "USD",
+  "dollar_threshold": 10000,
+  "percent_threshold": 0.15,
+  "comparison": "strictly_greater_than",
+  "revenue_budget_control": 400000,
+  "revenue_actual_control": 396300,
+  "expense_budget_control": 123000,
+  "expense_actual_control": 132500
+}

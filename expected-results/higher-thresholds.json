@@ -1,0 +1,269 @@
+{
+  "entity": "Harbor Table Restaurants",
+  "period": "2026-06",
+  "currency": "USD",
+  "method": "Python script",
+  "row_count": 12,
+  "material_count": 6,
+  "thresholds": {
+    "dollars": 10000,
+    "percent": 0.15,
+    "comparison": "strictly greater than; OR"
+  },
+  "controls_reconcile": true,
+  "totals": {
+    "Revenue": {
+      "budget": 400000,
+      "actual": 396300,
+      "variance": -3700
+    },
+    "Expense": {
+      "budget": 123000,
+      "actual": 132500,
+      "variance": 9500
+    }
+  },
+  "partial_operating_result": {
+    "budget": 277000,
+    "actual": 263800,
+    "variance": -13200
+  },
+  "material_rows": [
+    {
+      "Location": "Navy Yard",
+      "Category": "Sushi",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 80000,
+      "Actual": 65800,
+      "Variance": -14200,
+      "VariancePercent": -0.1775,
+      "Material": true,
+      "Direction": "Unfavorable",
+      "ProfitImpact": -14200
+    },
+    {
+      "Location": "Navy Yard",
+      "Category": "Labor",
+      "Period": "2026-06",
+      "Type": "Expense",
+      "Budget": 40000,
+      "Actual": 46500,
+      "Variance": 6500,
+      "VariancePercent": 0.1625,
+      "Material": true,
+      "Direction": "Unfavorable",
+      "ProfitImpact": -6500
+    },
+    {
+      "Location": "Bethesda",
+      "Category": "Food",
+      "Period": "2026-06",
+      "Type": "Expense",
+      "Budget": 28000,
+      "Actual": 33000,
+      "Variance": 5000,
+      "VariancePercent": 0.17857142857142858,
+      "Material": true,
+      "Direction": "Unfavorable",
+      "ProfitImpact": -5000
+    },
+    {
+      "Location": "Old Town",
+      "Category": "Catering",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 30000,
+      "Actual": 25000,
+      "Variance": -5000,
+      "VariancePercent": -0.16666666666666666,
+      "Material": true,
+      "Direction": "Unfavorable",
+      "ProfitImpact": -5000
+    },
+    {
+      "Location": "Capitol Hill",
+      "Category": "Dining",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 100000,
+      "Actual": 112000,
+      "Variance": 12000,
+      "VariancePercent": 0.12,
+      "Material": true,
+      "Direction": "Favorable",
+      "ProfitImpact": 12000
+    },
+    {
+      "Location": "Old Town",
+      "Category": "Beverage",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 15000,
+      "Actual": 17500,
+      "Variance": 2500,
+      "VariancePercent": 0.16666666666666666,
+      "Material": true,
+      "Direction": "Favorable",
+      "ProfitImpact": 2500
+    }
+  ],
+  "all_rows": [
+    {
+      "Location": "Navy Yard",
+      "Category": "Sushi",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 80000,
+      "Actual": 65800,
+      "Variance": -14200,
+      "VariancePercent": -0.1775,
+      "Material": true,
+      "Direction": "Unfavorable",
+      "ProfitImpact": -14200
+    },
+    {
+      "Location": "Capitol Hill",
+      "Category": "Dining",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 100000,
+      "Actual": 112000,
+      "Variance": 12000,
+      "VariancePercent": 0.12,
+      "Material": true,
+      "Direction": "Favorable",
+      "ProfitImpact": 12000
+    },
+    {
+      "Location": "Old Town",
+      "Category": "Catering",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 30000,
+      "Actual": 25000,
+      "Variance": -5000,
+      "VariancePercent": -0.16666666666666666,
+      "Material": true,
+      "Direction": "Unfavorable",
+      "ProfitImpact": -5000
+    },
+    {
+      "Location": "Bethesda",
+      "Category": "Dining",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 90000,
+      "Actual": 94000,
+      "Variance": 4000,
+      "VariancePercent": 0.044444444444444446,
+      "Material": false,
+      "Direction": "Favorable",
+      "ProfitImpact": 4000
+    },
+    {
+      "Location": "Navy Yard",
+      "Category": "Beverage",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 40000,
+      "Actual": 35000,
+      "Variance": -5000,
+      "VariancePercent": -0.125,
+      "Material": false,
+      "Direction": "Unfavorable",
+      "ProfitImpact": -5000
+    },
+    {
+      "Location": "Capitol Hill",
+      "Category": "Catering",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 20000,
+      "Actual": 22000,
+      "Variance": 2000,
+      "VariancePercent": 0.1,
+      "Material": false,
+      "Direction": "Favorable",
+      "ProfitImpact": 2000
+    },
+    {
+      "Location": "Old Town",
+      "Category": "Beverage",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 15000,
+      "Actual": 17500,
+      "Variance": 2500,
+      "VariancePercent": 0.16666666666666666,
+      "Material": true,
+      "Direction": "Favorable",
+      "ProfitImpact": 2500
+    },
+    {
+      "Location": "Bethesda",
+      "Category": "Catering",
+      "Period": "2026-06",
+      "Type": "Revenue",
+      "Budget": 25000,
+      "Actual": 25000,
+      "Variance": 0,
+      "VariancePercent": 0,
+      "Material": false,
+      "Direction": "On plan",
+      "ProfitImpact": 0
+    },
+    {
+      "Location": "Navy Yard",
+      "Category": "Labor",
+      "Period": "2026-06",
+      "Type": "Expense",
+      "Budget": 40000,
+      "Actual": 46500,
+      "Variance": 6500,
+      "VariancePercent": 0.1625,
+      "Material": true,
+      "Direction": "Unfavorable",
+      "ProfitImpact": -6500
+    },
+    {
+      "Location": "Capitol Hill",
+      "Category": "Food",
+      "Period": "2026-06",
+      "Type": "Expense",
+      "Budget": 35000,
+      "Actual": 31000,
+      "Variance": -4000,
+      "VariancePercent": -0.11428571428571428,
+      "Material": false,
+      "Direction": "Favorable",
+      "ProfitImpact": 4000
+    },
+    {
+      "Location": "Old Town",
+      "Category": "Labor",
+      "Period": "2026-06",
+      "Type": "Expense",
+      "Budget": 20000,
+      "Actual": 22000,
+      "Variance": 2000,
+      "VariancePercent": 0.1,
+      "Material": false,
+      "Direction": "Unfavorable",
+      "ProfitImpact": -2000
+    },
+    {
+      "Location": "Bethesda",
+      "Category": "Food",
+      "Period": "2026-06",
+      "Type": "Expense",
+      "Budget": 28000,
+      "Actual": 33000,
+      "Variance": 5000,
+      "VariancePercent": 0.17857142857142858,
+      "Material": true,
+      "Direction": "Unfavorable",
+      "ProfitImpact": -5000
+    }
+  ]
+}
