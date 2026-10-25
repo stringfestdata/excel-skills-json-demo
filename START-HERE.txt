@@ -1,0 +1,44 @@
+JSON settings for Copilot in Excel | Stringfest Analytics
+
+START HERE
+
+1. Extract the ZIP first. On Windows, right-click it and choose Extract All.
+   On a Mac, double-click it. Open the excel-skills-json-demo-main folder.
+2. Open json-skills-practice.xlsx in Excel. This is the starting workbook.
+   Save a working copy to OneDrive or SharePoint if Copilot asks for that.
+3. In Excel's Copilot settings, open Manage plugins & skills (or Manage
+   skills), then Custom skills. Use Add > Add in OneDrive or the Skills
+   OneDrive folder link to open your skills folder.
+4. Copy the ENTIRE variance-review-json folder into that skills folder.
+   SKILL.md must stay directly inside it, with references, scripts and
+   assets beside it. Let OneDrive sync, refresh skills, and enable both
+   Custom skills and variance-review-json.
+5. Select Data in the practice workbook. Open practice-prompts.txt.
+   Copy PASS 1 into Copilot to create Calculations and Review.
+   Then copy PASS 2 to add Manager while keeping Review.
+
+CHECK YOUR RESULT
+
+Review should have eight columns; Manager should have five. Both should
+contain the same eight data rows, starting with Navy Yard / Sushi and a
+($14,200) variance. Keep the Data sheet unchanged. The LAYOUT REPAIR prompt
+can help if Copilot misses settings. Its output can vary.
+
+TO COMPARE LATER
+
+live-example/json-skills-completed.xlsx is the saved completed workbook.
+The same folder contains screenshots and notes from the original live test.
+supporting-files contains optional calculation checks and reference images.
+You do not need those files, Python, Git, or a GitHub account to follow
+the blog exercise. The scripts folder is an optional check inside the skill;
+you do not need to run it yourself.
+
+Your Excel account must offer Copilot workbook editing and Custom skills.
+If these controls are missing, see Microsoft's setup guidance:
+https://support.microsoft.com/en-us/Excel/copilot/copilot-in-excel-skills
+
+Read README.md for the longer walkthrough (or view it on GitHub):
+https://github.com/stringfestdata/excel-skills-json-demo
+
+All data and business explanations are fictional. This is a partial
+operating review, not a complete profit-and-loss statement.

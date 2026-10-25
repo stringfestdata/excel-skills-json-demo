@@ -26,7 +26,7 @@ remain separate from this live baseline-policy workbook test.
 The two PNGs are genuine captures of the resulting Excel worksheets at 120% zoom.
 No report values or formatting were manually patched after Copilot's edits. Only the
 view (pane visibility, selected worksheet and zoom) was adjusted for screenshots.
-The reference-layouts folder contains separately rendered teaching references.
+The supporting-files/reference-layouts folder contains separately rendered teaching references.
 
 Copilot output can vary. JSON provides an explicit specification to check, not an
 enforcement guarantee. After input or threshold changes, rerun to rebuild row selection,
