@@ -1,11 +1,68 @@
+JSON settings for Copilot in Excel | Stringfest Analytics
+
+Use json-skills-practice.xlsx for these prompts. Install the complete skill
+folder first (see START-HERE.txt), then select the Data worksheet.
+Copy only the paragraph between COPY and END COPY into Copilot.
+
 PASS 1: detailed review
+
+Purpose: build the detailed report from the prepared data and rules.
+
+COPY
 @variance-review-json Use tblLocationPnL on Data with references/policy.json and references/review-layout.json. Create the formula-based calculations and the Review worksheet. Before editing, identify the source table and both JSON files you can actually read. If a required file is inaccessible, stop and name it. Keep Data unchanged. Check the headers, row count, sorting, formats and documented drivers against the selected files.
+END COPY
+
+What to check: Copilot creates Calculations and Review. Review has eight
+columns and eight data rows. Navy Yard / Sushi comes first, with ($14,200)
+in Variance $. Bethesda / Food and Navy Yard / Beverage should say
+"driver not documented". Data should be unchanged.
 
 PASS 2: compact manager view
-@variance-review-json Use the same Data table and the same references/policy.json, but apply references/manager-layout.json to a new Manager worksheet. Preserve Review. Show all material rows. Confirm whether both views contain the same eight rows and figures. Report any mismatch with the JSON layout.
 
-OPTIONAL PASS 3: higher thresholds (separate numerical experiment)
-@variance-review-json Use references/policy-higher-thresholds.json with references/manager-layout.json. Rebuild the Manager view and its calculations, then identify which two rows no longer qualify. Rebuild Review too if you want both views on the same policy. Keep the original Data table unchanged.
+Purpose: keep the same procedure and selection rules; choose fewer columns.
+
+COPY
+@variance-review-json Use the same Data table and the same references/policy.json, but apply references/manager-layout.json to a new Manager worksheet. Preserve Review. Show all material rows. Confirm whether both views contain the same eight rows and figures. Report any mismatch with the JSON layout.
+END COPY
+
+What to check: Manager has five columns and Review still has eight. Both
+contain the same eight data rows in the same order. The dollar-variance
+heading changes from "Variance $" to "Vs budget"; Navy Yard / Sushi stays
+($14,200). A shorter view should not lose selected rows or change the math.
+
+WHY THIS HELPS
+
+A regular prompt or saved skill can describe either layout. JSON is useful
+when you want to keep recurring choices in separate settings files. Here,
+you switch the layout filename instead of restating the column list and
+formatting. Copilot still needs to read the files and you still check its work.
+
+OPTIONAL: CHANGE ONE HEADING
+
+1. Open references/manager-layout.json inside your INSTALLED OneDrive
+   variance-review-json folder. Editing a spare copy in Downloads will not
+   update the installed skill.
+2. Find "field": "Variance" and the "header": "Vs budget" beside it.
+3. Change only "Vs budget" to "Change vs plan". Keep "Variance", quotes,
+   commas and braces as they are. Keep the rest of the complete file.
+4. Save the existing .json file, not a new .txt copy. Let OneDrive sync,
+   refresh skills and send PASS 2 again.
+5. Check: new heading, same eight rows, same amounts. If the heading stays
+   the same, check that you edited the installed copy and Copilot read it.
+
+The saved workbook and screenshots show the original "Vs budget" heading.
+You can change the heading back in the JSON file and rerun PASS 2 afterward.
 
 LAYOUT REPAIR
+
+Use this if Review misses the saved layout. For Manager, replace "Review"
+with "Manager" and "review-layout.json" with "manager-layout.json" first.
+The original live run needed a font/color follow-up; its exact prompt is
+recorded in live-example/live-test-notes.txt. Results can vary.
+
+COPY
 Compare the current Review output with references/review-layout.json. Check each column header and order, number formats, unfavorable-first sorting, eight expected material rows and the exact missing-driver text. Correct only mismatches with this layout and policy; do not redesign the report.
+END COPY
+
+You can stop here. The separate higher-threshold experiment is optional
+and lives in supporting-files/README.txt.

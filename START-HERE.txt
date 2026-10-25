@@ -2,20 +2,33 @@ JSON settings for Copilot in Excel | Stringfest Analytics
 
 START HERE
 
+THE POINT OF THIS EXERCISE
+
+You need a detailed report; your manager needs fewer columns. Keep the same
+calculation instructions and select a different saved JSON layout. The test:
+eight columns become five, while the same eight rows and dollar amounts stay.
+A regular prompt can describe either report. JSON gives recurring settings
+a separate, named home so you can reuse or change them.
+
 1. Extract the ZIP first. On Windows, right-click it and choose Extract All.
    On a Mac, double-click it. Open the excel-skills-json-demo-main folder.
-2. Open json-skills-practice.xlsx in Excel. This is the starting workbook.
+2. First, open live-example/json-skills-completed.xlsx. Click Review, then
+   Manager. Notice fewer columns but the same eight rows. Close this saved
+   completed example without editing it.
+3. Open json-skills-practice.xlsx in Excel. It has only the Data worksheet.
    Save a working copy to OneDrive or SharePoint if Copilot asks for that.
-3. In Excel's Copilot settings, open Manage plugins & skills (or Manage
-   skills), then Custom skills. Use Add > Add in OneDrive or the Skills
-   OneDrive folder link to open your skills folder.
-4. Copy the ENTIRE variance-review-json folder into that skills folder.
+4. In Excel's Copilot settings, open Manage plugins & skills (or Manage
+   skills), then Custom skills. Choose Create OneDrive folder if needed,
+   then Open skills folder. Older labels may be Add > Add in OneDrive or
+   Skills OneDrive folder.
+5. Copy the ENTIRE variance-review-json folder into that skills folder.
    SKILL.md must stay directly inside it, with references, scripts and
    assets beside it. Let OneDrive sync, refresh skills, and enable both
    Custom skills and variance-review-json.
-5. Select Data in the practice workbook. Open practice-prompts.txt.
+6. Select Data in the practice workbook. Open practice-prompts.txt.
    Copy PASS 1 into Copilot to create Calculations and Review.
-   Then copy PASS 2 to add Manager while keeping Review.
+   Read its result checks. Then copy PASS 2 to add Manager while keeping
+   Review. The same text file has an optional one-heading change to try next.
 
 CHECK YOUR RESULT
 
@@ -24,7 +37,7 @@ contain the same eight data rows, starting with Navy Yard / Sushi and a
 ($14,200) variance. Keep the Data sheet unchanged. The LAYOUT REPAIR prompt
 can help if Copilot misses settings. Its output can vary.
 
-TO COMPARE LATER
+MORE HELP, ONLY IF YOU NEED IT
 
 live-example/json-skills-completed.xlsx is the saved completed workbook.
 The same folder contains screenshots and notes from the original live test.
@@ -37,7 +50,7 @@ Your Excel account must offer Copilot workbook editing and Custom skills.
 If these controls are missing, see Microsoft's setup guidance:
 https://support.microsoft.com/en-us/Excel/copilot/copilot-in-excel-skills
 
-Read README.md for the longer walkthrough (or view it on GitHub):
+Read README.md for the file guide (or view it on GitHub):
 https://github.com/stringfestdata/excel-skills-json-demo
 
 All data and business explanations are fictional. This is a partial

@@ -10,6 +10,19 @@ For genuine live Copilot screenshots and the completed workbook, use
 live-example/ at the top level. Its live-test-notes.txt records the exact
 formatting follow-up used in the original run.
 
+OPTIONAL HIGHER-THRESHOLD EXPERIMENT
+
+Try this only after finishing the two-layout comparison. Use a separate
+copy of your completed practice workbook so you can keep the baseline.
+This changes which rows qualify, not just how they look. Higher thresholds
+select six rows instead of eight. Copy the following paragraph into Copilot:
+
+@variance-review-json Use references/policy-higher-thresholds.json with references/manager-layout.json. Rebuild the Manager view and its calculations, then identify which two rows no longer qualify. Rebuild Review too if you want both views on the same policy. Keep the original Data table unchanged.
+
+Both views are comparable only when rebuilt with the same policy. The
+saved live-example workbook and the blog screenshots use the baseline
+policy with eight rows; they do not show this separate experiment.
+
 OPTIONAL PYTHON CHECK
 
 Python 3, standard library only. From the variance-review-json folder run:
