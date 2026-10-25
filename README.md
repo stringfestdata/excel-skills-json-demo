@@ -1,4 +1,10 @@
-# JSON settings: reader example
+# JSON settings for Copilot in Excel
+
+**New to JSON? Start with the [step-by-step Excel layout exercise](output-layouts/README.md).** It includes a ready-to-use workbook and skill, two report layouts, and screenshots from a verified live Copilot run. No Python is needed for that walkthrough.
+
+The instructions below describe the earlier calculation-focused example. You can leave it for later.
+
+## Earlier example: JSON policy settings
 
 This is the companion download for “Beyond SKILL.md: Give Your Copilot Skill a Settings File” by George Mount / Stringfest Analytics. All company data and business drivers are fictional.
 
