@@ -2,7 +2,7 @@
 
 **[Download the exercise files (ZIP)](https://github.com/stringfestdata/excel-skills-json-demo/archive/refs/heads/main.zip)**
 
-Companion files for George Mount's *How to use JSON to structure Copilot outputs in Excel*. Give yourself a detailed report and your manager a shorter version, without rewriting the calculation instructions. One prepared skill reads two saved JSON layouts.
+Companion files for George Mount's [How to use JSON to structure Copilot outputs in Excel](https://stringfestanalytics.com/json-copilot-excel-skills-output-structure/). Give yourself a detailed report and your manager a shorter version, without rewriting the calculation instructions. One prepared skill reads two saved JSON layouts.
 
 **The test:** Review has eight columns; Manager has five. Both keep the same eight selected rows and dollar amounts. JSON holds the choices that change; the skill holds the procedure. A regular prompt can do this too. Separate settings become useful when you reuse or vary the report.
 
@@ -14,7 +14,7 @@ Companion files for George Mount's *How to use JSON to structure Copilot outputs
 4. **Add the skill.** In Copilot settings, open **Manage plugins & skills** (or **Manage skills**) > **Custom skills**. Choose **Create OneDrive folder** if needed, then **Open skills folder**. Older labels may be **Add > Add in OneDrive** or **Skills OneDrive folder**. Copy the entire `variance-review-json` folder there, let it sync, refresh skills, and enable it.
 5. **Run the prompts.** Select **Data**. Open [practice-prompts.txt](practice-prompts.txt), copy **PASS 1** into Copilot and check the result. Then run **PASS 2**. The file includes a small optional heading change to try afterward.
 
-No GitHub account, Git software, or Python is needed. Your Excel account must offer Copilot workbook editing and Custom skills. See [Microsoft's setup guidance](https://support.microsoft.com/en-us/Excel/copilot/copilot-in-excel-skills) if those controls are missing.
+No GitHub account, Git software, or Python is needed. Your Excel account must offer Copilot workbook editing and Custom skills. Skills currently require an English Office display language. See [Microsoft's setup guidance](https://support.microsoft.com/en-us/Excel/copilot/copilot-in-excel-skills) if those controls are missing.
 
 ## What to open
 

@@ -47,11 +47,15 @@ the blog exercise. The scripts folder is an optional check inside the skill;
 you do not need to run it yourself.
 
 Your Excel account must offer Copilot workbook editing and Custom skills.
+Skills currently require the Office display language to be English.
 If these controls are missing, see Microsoft's setup guidance:
 https://support.microsoft.com/en-us/Excel/copilot/copilot-in-excel-skills
 
 Read README.md for the file guide (or view it on GitHub):
 https://github.com/stringfestdata/excel-skills-json-demo
+
+Read the full blog walkthrough:
+https://stringfestanalytics.com/json-copilot-excel-skills-output-structure/
 
 All data and business explanations are fictional. This is a partial
 operating review, not a complete profit-and-loss statement.

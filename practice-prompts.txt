@@ -46,12 +46,18 @@ OPTIONAL: CHANGE ONE HEADING
 3. Change only "Vs budget" to "Change vs plan". Keep "Variance", quotes,
    commas and braces as they are. Keep the rest of the complete file.
 4. Save the existing .json file, not a new .txt copy. Let OneDrive sync,
-   refresh skills and send PASS 2 again.
+   refresh skills and send UPDATE MANAGER below.
 5. Check: new heading, same eight rows, same amounts. If the heading stays
    the same, check that you edited the installed copy and Copilot read it.
 
 The saved workbook and screenshots show the original "Vs budget" heading.
-You can change the heading back in the JSON file and rerun PASS 2 afterward.
+You can change the heading back in the JSON file and rerun UPDATE MANAGER.
+
+UPDATE MANAGER
+
+COPY
+@variance-review-json Re-read references/manager-layout.json from the installed skill folder and apply its updated layout to the existing Manager worksheet. Keep references/policy.json unchanged. Preserve Data, Calculations and Review, and keep Manager's numeric formulas intact. Confirm that Manager uses the exact header from the JSON and still matches Review's eight rows and dollar amounts. If the updated file is inaccessible, stop and name it.
+END COPY
 
 LAYOUT REPAIR
 
