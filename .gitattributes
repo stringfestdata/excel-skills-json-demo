@@ -1,5 +1,3 @@
-# Keep the reader ZIP focused on the current Excel exercise.
-archive/ export-ignore
-blog-assets/ export-ignore
+# Keep repository metadata out of the reader ZIP.
 .gitattributes export-ignore
 .gitignore export-ignore
