@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "worksheet_name": "Review",
+  "title": "June 2026 variance review",
+  "rows": "material_only",
+  "columns": [
+    {
+      "field": "Location",
+      "header": "Location"
+    },
+    {
+      "field": "Category",
+      "header": "Line item"
+    },
+    {
+      "field": "Budget",
+      "header": "Budget"
+    },
+    {
+      "field": "Actual",
+      "header": "Actual"
+    },
+    {
+      "field": "Variance",
+      "header": "Variance $"
+    },
+    {
+      "field": "VariancePercent",
+      "header": "Variance %"
+    },
+    {
+      "field": "Direction",
+      "header": "Direction"
+    },
+    {
+      "field": "Driver",
+      "header": "Documented driver"
+    }
+  ],
+  "sort": "unfavorable_first_then_absolute_profit_impact_desc",
+  "number_formats": {
+    "dollars": "$#,##0;($#,##0);$0",
+    "percent": "0.0%;(0.0%);0.0%"
+  },
+  "style": {
+    "font": "Arial",
+    "font_size": 11,
+    "header_fill": "#1F2120",
+    "header_text": "#FFFFFF",
+    "title_color": "#CF3338",
+    "alternate_row_fill": "#EEECE1",
+    "show_gridlines": false
+  },
+  "commentary": {
+    "missing_driver": "driver not documented",
+    "max_words_per_driver": 40
+  }
+}

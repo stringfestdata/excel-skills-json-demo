@@ -1,0 +1,11 @@
+PASS 1: detailed review
+@variance-review-json Use tblLocationPnL on Data with references/policy.json and references/review-layout.json. Create the formula-based calculations and the Review worksheet. Before editing, identify the source table and both JSON files you can actually read. If a required file is inaccessible, stop and name it. Keep Data unchanged. Check the headers, row count, sorting, formats and documented drivers against the selected files.
+
+PASS 2: compact manager view
+@variance-review-json Use the same Data table and the same references/policy.json, but apply references/manager-layout.json to a new Manager worksheet. Preserve Review. Show all material rows. Confirm whether both views contain the same eight rows and figures. Report any mismatch with the JSON layout.
+
+OPTIONAL PASS 3: higher thresholds (separate numerical experiment)
+@variance-review-json Use references/policy-higher-thresholds.json with references/manager-layout.json. Rebuild the Manager view and its calculations, then identify which two rows no longer qualify. Rebuild Review too if you want both views on the same policy. Keep the original Data table unchanged.
+
+LAYOUT REPAIR
+Compare the current Review output with references/review-layout.json. Check each column header and order, number formats, unfavorable-first sorting, eight expected material rows and the exact missing-driver text. Correct only mismatches with this layout and policy; do not redesign the report.
