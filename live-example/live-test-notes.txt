@@ -1,0 +1,33 @@
+LIVE EXCEL TEST | Stringfest Analytics
+
+Tested in desktop Excel with Copilot Premium and Custom skills enabled, October 24, 2026 (Hawaii).
+The complete variance-review-json folder was installed in the OneDrive skills folder.
+
+1. Ran the supplied detailed-review prompt with policy.json and review-layout.json.
+Copilot read the supporting files and created Calculations and Review. The source table,
+all 12 calculation rows, eight selected rows, sort order, values and formula links checked out.
+The first pass did not fully apply the requested font and font colors.
+
+2. Sent this follow-up to Copilot:
+Compare the current Review output with references/review-layout.json and correct only the mismatches. The eight rows, figures and formula links are correct. The saved Review cells currently use Carlito, the charcoal header has dark unreadable text, and the title is not red. Apply Arial 11 to the report, header text #FFFFFF on fill #1F2120, title color #CF3338, alternating #EEECE1 rows, and the selected dollar and percent formats. Keep all values numeric and formulas intact. Wrap driver text, fit widths and row heights, and move the snapshot note from H2 into a readable full-width note under the title. Do not change Data or calculation formulas. Verify the actual resulting cell font names/colors and show any remaining mismatch.
+
+3. Ran the supplied manager-layout prompt, with the same policy.json and manager-layout.json.
+Copilot created Manager and preserved Review. Both contain the same eight rows, in the
+same order, with matching numeric variances. Review has eight columns; Manager has five.
+
+4. Saved the workbook and independently inspected its formulas, cached values, source
+table, headers, fonts, colors, formats, gridlines, drivers and control comparisons.
+All four revenue/expense control differences are zero. Revenue actual is 396300;
+expense actual is 132500. Data is unchanged. All calculation rows use formulas, and
+displayed numeric results link to Calculations. The two missing drivers use the exact
+wording 'driver not documented'. The original/higher-policy independent script checks
+remain separate from this live baseline-policy workbook test.
+
+The two PNGs are genuine captures of the resulting Excel worksheets at 120% zoom.
+No report values or formatting were manually patched after Copilot's edits. Only the
+view (pane visibility, selected worksheet and zoom) was adjusted for screenshots.
+The supporting-files/reference-layouts folder contains separately rendered teaching references.
+
+Copilot output can vary. JSON provides an explicit specification to check, not an
+enforcement guarantee. After input or threshold changes, rerun to rebuild row selection,
+sorting and commentary. All business data and supplied explanations are fictional.

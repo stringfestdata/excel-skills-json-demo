@@ -1,0 +1,13 @@
+Location,Category,Period,Type,Budget,Actual
+Navy Yard,Sushi,2026-06,Revenue,80000,65800
+Capitol Hill,Dining,2026-06,Revenue,100000,112000
+Old Town,Catering,2026-06,Revenue,30000,25000
+Bethesda,Dining,2026-06,Revenue,90000,94000
+Navy Yard,Beverage,2026-06,Revenue,40000,35000
+Capitol Hill,Catering,2026-06,Revenue,20000,22000
+Old Town,Beverage,2026-06,Revenue,15000,17500
+Bethesda,Catering,2026-06,Revenue,25000,25000
+Navy Yard,Labor,2026-06,Expense,40000,46500
+Capitol Hill,Food,2026-06,Expense,35000,31000
+Old Town,Labor,2026-06,Expense,20000,22000
+Bethesda,Food,2026-06,Expense,28000,33000

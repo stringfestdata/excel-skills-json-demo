@@ -1,0 +1,202 @@
+{
+  "checks": {
+    "source_table_unchanged": true,
+    "source_table_name_range": true,
+    "all_12_calculation_rows": true,
+    "material_flags": true,
+    "controls_match": true,
+    "threshold_inputs": true,
+    "all_formula_calculations": true,
+    "all_12_calculated_figures": true,
+    "no_cached_errors": true
+  },
+  "reports": {
+    "Review": {
+      "present": true,
+      "exact_headers": true,
+      "header_row": 4,
+      "gridlines_hidden": true,
+      "same_eight_rows_in_order": true,
+      "figures_match": true,
+      "numeric_formula_links": true,
+      "missing_drivers_exact": true,
+      "driver_word_limit": true,
+      "arial_11": true,
+      "white_headers": true,
+      "charcoal_header_fill": true,
+      "red_title": true,
+      "number_formats": [
+        "\"$\"#,##0;\\(\"$\"#,##0\\);\"$\"0",
+        "0.0%;\\(0.0%\\);0.0%"
+      ],
+      "number_formats_equivalent": true,
+      "alternating_offwhite_rows": true,
+      "rows": [
+        {
+          "Location": "Navy Yard",
+          "Category": "Sushi",
+          "Budget": 80000,
+          "Actual": 65800,
+          "Variance": -14200,
+          "VariancePercent": -0.1775,
+          "Direction": "Unfavorable",
+          "Driver": "Reduced sushi service during a kitchen repair lowered sales."
+        },
+        {
+          "Location": "Navy Yard",
+          "Category": "Labor",
+          "Budget": 40000,
+          "Actual": 46500,
+          "Variance": 6500,
+          "VariancePercent": 0.1625,
+          "Direction": "Unfavorable",
+          "Driver": "Overtime during the kitchen repair increased labor cost."
+        },
+        {
+          "Location": "Bethesda",
+          "Category": "Food",
+          "Budget": 28000,
+          "Actual": 33000,
+          "Variance": 5000,
+          "VariancePercent": 0.17857142857142858,
+          "Direction": "Unfavorable",
+          "Driver": "driver not documented"
+        },
+        {
+          "Location": "Navy Yard",
+          "Category": "Beverage",
+          "Budget": 40000,
+          "Actual": 35000,
+          "Variance": -5000,
+          "VariancePercent": -0.125,
+          "Direction": "Unfavorable",
+          "Driver": "driver not documented"
+        },
+        {
+          "Location": "Old Town",
+          "Category": "Catering",
+          "Budget": 30000,
+          "Actual": 25000,
+          "Variance": -5000,
+          "VariancePercent": -0.16666666666666666,
+          "Direction": "Unfavorable",
+          "Driver": "A corporate client canceled its June catering event."
+        },
+        {
+          "Location": "Capitol Hill",
+          "Category": "Dining",
+          "Budget": 100000,
+          "Actual": 112000,
+          "Variance": 12000,
+          "VariancePercent": 0.12,
+          "Direction": "Favorable",
+          "Driver": "Additional private dining bookings increased sales."
+        },
+        {
+          "Location": "Capitol Hill",
+          "Category": "Food",
+          "Budget": 35000,
+          "Actual": 31000,
+          "Variance": -4000,
+          "VariancePercent": -0.11428571428571428,
+          "Direction": "Favorable",
+          "Driver": "A negotiated supplier discount reduced food cost."
+        },
+        {
+          "Location": "Old Town",
+          "Category": "Beverage",
+          "Budget": 15000,
+          "Actual": 17500,
+          "Variance": 2500,
+          "VariancePercent": 0.16666666666666666,
+          "Direction": "Favorable",
+          "Driver": "An expanded patio schedule increased beverage sales."
+        }
+      ]
+    },
+    "Manager": {
+      "present": true,
+      "exact_headers": true,
+      "header_row": 4,
+      "gridlines_hidden": true,
+      "same_eight_rows_in_order": true,
+      "figures_match": true,
+      "numeric_formula_links": true,
+      "missing_drivers_exact": true,
+      "driver_word_limit": true,
+      "arial_11": true,
+      "white_headers": true,
+      "charcoal_header_fill": true,
+      "red_title": true,
+      "number_formats": [
+        "\"$\"#,##0;\\(\"$\"#,##0\\);\"$\"0"
+      ],
+      "number_formats_equivalent": true,
+      "alternating_offwhite_rows": true,
+      "rows": [
+        {
+          "Location": "Navy Yard",
+          "Category": "Sushi",
+          "Variance": -14200,
+          "Direction": "Unfavorable",
+          "Driver": "Reduced sushi service during a kitchen repair lowered sales."
+        },
+        {
+          "Location": "Navy Yard",
+          "Category": "Labor",
+          "Variance": 6500,
+          "Direction": "Unfavorable",
+          "Driver": "Overtime during the kitchen repair increased labor cost."
+        },
+        {
+          "Location": "Bethesda",
+          "Category": "Food",
+          "Variance": 5000,
+          "Direction": "Unfavorable",
+          "Driver": "driver not documented"
+        },
+        {
+          "Location": "Navy Yard",
+          "Category": "Beverage",
+          "Variance": -5000,
+          "Direction": "Unfavorable",
+          "Driver": "driver not documented"
+        },
+        {
+          "Location": "Old Town",
+          "Category": "Catering",
+          "Variance": -5000,
+          "Direction": "Unfavorable",
+          "Driver": "A corporate client canceled its June catering event."
+        },
+        {
+          "Location": "Capitol Hill",
+          "Category": "Dining",
+          "Variance": 12000,
+          "Direction": "Favorable",
+          "Driver": "Additional private dining bookings increased sales."
+        },
+        {
+          "Location": "Capitol Hill",
+          "Category": "Food",
+          "Variance": -4000,
+          "Direction": "Favorable",
+          "Driver": "A negotiated supplier discount reduced food cost."
+        },
+        {
+          "Location": "Old Town",
+          "Category": "Beverage",
+          "Variance": 2500,
+          "Direction": "Favorable",
+          "Driver": "An expanded patio schedule increased beverage sales."
+        }
+      ]
+    }
+  },
+  "sheets": [
+    "Data",
+    "Calculations",
+    "Review",
+    "Manager"
+  ]
+}
